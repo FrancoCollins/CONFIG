@@ -38,7 +38,7 @@ public class Vista {
                         break;
                 }
             } catch (NumberFormatException e) {
-                JOptionPane.showMessageDialog(null, "Opcion fuera del rango, por favor elija una opcion");
+                e.getMessage();
             }
             if (seleccion < 0 || seleccion > 4) {
                 JOptionPane.showMessageDialog(null, "Opcion fuera del rango, por favor elija una opcion");
